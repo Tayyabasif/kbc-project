@@ -1,4 +1,4 @@
-package com.kbc3;
+
 import java.util.Scanner;
 
 public class kbc3 {
