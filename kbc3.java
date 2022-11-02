@@ -30,7 +30,7 @@ for(i=1;i<=5;i++)
 {
   System.out.println("|");
 }System.out.println();
-System.out.println("       Press 👆 any key to proceed");
+System.out.println("       Press any key to proceed");
 char ch=sc.next().charAt(0);
 if(ch>='a'||ch<='z')
 {
@@ -43,7 +43,7 @@ if(ch>='a'||ch<='z')
  System.out.println("**BONUS**---You'll be given 2 lifelines,which you can use for first 3 questions.");
  System.out.println();
  
- System.out.println("       Press 👆 any key to proceed.");
+ System.out.println("       Press any key to proceed.");
  
  char c=sc.next().charAt(0);
 if(c>='a'||c<='z')
@@ -53,13 +53,13 @@ if(c>='a'||c<='z')
   System.out.println("|");
 }
  
- System.out.println("   Press \'S\' key to start the 🧩🎲 game");
+ System.out.println("   Press \'S\' key to start the game");
  
  char chr=sc.next().charAt(0);
 if(chr=='s')
   {int i1=0;
 		char user_input;
-		String questions[] = new String[]{"1️⃣ Who is the CEO of Google ?", "2️⃣ Where is he from", "3️⃣ Who is the CEO of Facebook", "4️⃣ how many state in india", "5️⃣ What is state of india : ", "6️⃣ What is Japan also known as?" };
+		String questions[] = new String[]{"1 Who is the CEO of Google ?", "2 Where is he from", "3 Who is the CEO of Facebook", "4 how many state in india", "5 What is state of india : ", "6 What is Japan also known as?" };
 		String first_options[] = new String[]{"A)Sunil Parcha", "A)Madurai", "A)Mark Zuckerberg", "A)27", "A)Nagpur", "A)The machine"};
 		String second_options[] =new String[]{"B)Sundar Pichai", "B)America", "B)Ankit Sharma", "B)30","B)Delhi", "B)the confu town"};
 		String third_options[] = new String[]{"C)Amit bhanada", "C)Delhi", "C)larry page", "C)28", "C)Alaska","C)The land of rising sun"};
@@ -82,11 +82,11 @@ if(chr=='s')
 		}	System.out.println("   yeh question Rs."  + rps[n] + "\\- ke  liye hai");
 		System.out.println();
 		System.out.println();
-			System.out.println("        Aap answer input kijiye ⌨️");
+			System.out.println("        Aap answer input kijiye ");
 			
 			user_input = sc.next().charAt(0);
 			if (answers[n]==user_input) {
-				System.out.println("     ☑️EK DUM SAHI JABAB👋👋");
+				System.out.println("     ✓EK DUM SAHI JABAB");
 				System.out.println();
 			}
 	else if(user_input=='l')	
@@ -103,7 +103,7 @@ if(chr=='s')
 
 user_input = sc.next().charAt(0);
 			if (answers[n]==user_input) {
-				System.out.println("     ☑️EK DUM SAHI JABAB👋👋");
+				System.out.println("     ✓EK DUM SAHI JABAB");
 				System.out.println();
   }}	
 		else{
@@ -112,13 +112,13 @@ user_input = sc.next().charAt(0);
 				break;
 			}
 			i1 = i1 + rps[n];
-			System.out.println("     ➡️Abhi aap Rs." + i1 + "\\- Jeet cuke hai 💰💰");
+			System.out.println("     ->Abhi aap Rs." + i1 + "\\- Jeet cuke hai $$");
 			System.out.println();
 			n++;
 		}
-		System.out.println("           You Win🎖 Rs." + i1+"\\-💰💰");
+		System.out.println("           You Win* Rs." + i1+"\\-$$");
 		System.out.println();
-		System.out.println("          Thanks for playing KBC 😊");
+		System.out.println("          Thanks for playing KBC :)");
     }
   }
 }}}
