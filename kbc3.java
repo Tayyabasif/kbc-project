@@ -86,7 +86,7 @@ if(chr=='s')
 			
 			user_input = sc.next().charAt(0);
 			if (answers[n]==user_input) {
-				System.out.println("     ✓EK DUM SAHI JABAB");
+				System.out.println("     EK DUM SAHI JABAB");
 				System.out.println();
 			}
 	else if(user_input=='l')	
@@ -103,7 +103,7 @@ if(chr=='s')
 
 user_input = sc.next().charAt(0);
 			if (answers[n]==user_input) {
-				System.out.println("     ✓EK DUM SAHI JABAB");
+				System.out.println("     EK DUM SAHI JABAB");
 				System.out.println();
   }}	
 		else{
